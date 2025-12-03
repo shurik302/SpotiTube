@@ -1,0 +1,9 @@
+includes:
+    - vendor/phpstan/phpstan/extension.neon
+parameters:
+    level: max
+    paths:
+        - app
+    tmpDir: storage/phpstan
+    checkMissingIterableValueType: true
+    checkGenericClassInNonGenericObjectType: true
